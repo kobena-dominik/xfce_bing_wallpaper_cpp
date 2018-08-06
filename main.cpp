@@ -139,6 +139,10 @@ string getLastImage(){
     c.wait();
     return retour ;
 }
+/**
+* Xfce Bing wallpaper v1.0
+* 
+*/
 int main()
 {
     // TODO Auto-generated method stub
