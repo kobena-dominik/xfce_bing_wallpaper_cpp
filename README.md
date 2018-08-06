@@ -11,10 +11,14 @@ So what are you waiting ???? Enjoy the bing wallpaper of the Day.
 
 INSTALLATION
 
-    First check that you have boost and libpthread (install by default on unix like systems) if you want to compile the program yourself. If not please do install boost libraries.
+    First check that you have boost and libpthread (install by default on unix like systems) if you want to compile the program 
+    yourself. If not please do install boost libraries.
     https://www.boost.org
     Download the source in your home directory or wherever you like : ~/xfce_bing_wallpaper/main.cpp
-    run these commands : cd ~/xfce_bing_wallpaper/ && g++ -Wall -fexceptions -I/boost_install_dir/ -L/boost_install_dir/lib -lboost_system -lboost_filesystem -lboost_regex -lboost_timer -lboost_chrono -lboost_thread -lpthread ~/Xfce_Bing_Wallpaper/main.cpp -o ~/xfce_bing_wallpaper.bin 
+    run these commands : cd ~/xfce_bing_wallpaper/ && g++ -Wall -fexceptions -I/boost_install_dir/ -L/boost_install_dir/lib 
+    -lboost_system 
+    -lboost_filesystem -lboost_regex -lboost_timer -lboost_chrono -lboost_thread -lpthread ~/Xfce_Bing_Wallpaper/main.cpp -o 
+    ~/xfce_bing_wallpaper.bin 
     If you have any issue to compile the program yourself, you can try to use the generated binary released for you
 
 Now setup xfce
