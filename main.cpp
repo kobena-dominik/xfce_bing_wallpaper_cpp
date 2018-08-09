@@ -140,7 +140,7 @@ string getLastImage(){
     return retour ;
 }
 /**
-* Xfce Bing wallpaper v1.0
+* Xfce Bing wallpaper v1.0 2018
 * 
 */
 int main()
